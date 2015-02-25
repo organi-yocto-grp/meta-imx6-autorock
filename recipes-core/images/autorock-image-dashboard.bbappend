@@ -1,5 +1,5 @@
 
-IMAGE_FSTYPES += "squashfs-lzo"
+IMAGE_FSTYPES += "cpio"
 
 IMAGE_INSTALL += " dashboard-njgdbus"
 
