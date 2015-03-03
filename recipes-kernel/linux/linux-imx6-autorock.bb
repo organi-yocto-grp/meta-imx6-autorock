@@ -9,7 +9,6 @@ SRC_URI = "git://git@git.autorock.com/i-mx6/fsl-linux.git;branch=${SRCBRANCH};pr
 
 SRCBRANCH = "imx_3.10.17_1.0.1_ga"
 SRCREV = "${AUTOREV}"
-LOCALVERSION = "-${SRCBRANCH}+git${SRCREV}"
 
 DEPENDS += "lzop-native bc-native u-boot-mkimage-native"
 
