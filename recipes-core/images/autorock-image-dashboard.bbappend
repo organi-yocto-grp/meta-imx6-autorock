@@ -1,5 +1,5 @@
 
-IMAGE_FSTYPES += "cpio"
+IMAGE_FSTYPES += "cpio.lz4"
 
 IMAGE_INSTALL += " dashboard-njgdbus"
 
@@ -13,6 +13,8 @@ IMAGE_PREPROCESS_COMMAND += "pre_process_image_cpio;"
 IMAGE_CMD_cpio () {
 	(cd ${IMAGE_ROOTFS} && find initroot | cpio -o -H newc >${DEPLOY_DIR_IMAGE}/${IMAGE_NAME}.rootfs.cpio)
 }
+
+COMPRESS_CMD_lz4 = "lz4c -9 -l -c ${IMAGE_NAME}.rootfs.${type} > ${IMAGE_NAME}.rootfs.${type}.lz4"
 
 
 
