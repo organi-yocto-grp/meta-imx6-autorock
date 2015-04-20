@@ -8,9 +8,9 @@ SRC_URI = "git://git@git.autorock.com/i-mx6/fsl-linux.git;branch=${SRCBRANCH};pr
 "
 
 SRCBRANCH = "imx_3.10.17_1.0.1_ga"
-SRCREV = "${AUTOREV}"
+SRCREV = "3ad2eee174d6b74e5a2238126aa1f09f76e3ae0d"
 
-DEPENDS += "lzop-native bc-native u-boot-mkimage-native"
+DEPENDS += "lz4-native bc-native"
 
 COMPATIBLE_MACHINE = "wisehmi"
 

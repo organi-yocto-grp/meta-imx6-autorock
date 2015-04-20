@@ -15,7 +15,7 @@ PREFERRED_PROVIDER_virtual/kernel = "linux-imx6-autorock"
 
 PREFERRED_PROVIDER_jpeg = "libjpeg-turbo"
 
-KERNEL_IMAGETYPE = "uImage"
+KERNEL_IMAGETYPE = "zImage"
 
 IMAGE_FSTYPES = "tar.bz2"
 
