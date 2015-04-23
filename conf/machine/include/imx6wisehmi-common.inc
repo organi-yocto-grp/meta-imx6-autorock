@@ -1,6 +1,7 @@
 # Provides the i.MX6 WiseHMI common settings
 
 MACHINEOVERRIDES = "wisehmi:${MACHINE}"
+MACHINE_CLASS = "wisehmi"
 
 require conf/machine/include/imx-base.inc
 require conf/machine/include/tune-cortexa9.inc
