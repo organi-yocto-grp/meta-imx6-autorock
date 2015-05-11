@@ -37,3 +37,5 @@ kernel-module-fec \
 kernel-module-mii \
 kernel-module-smsc \
 "
+
+MACHINE_ARCH_FILTER += "qtbase-static"
