@@ -9,7 +9,7 @@ PROVIDES = "u-boot"
 
 SRCREV = "a4bbb3df82247f931c43b818167ae7fabda5e40d"
 SRCBRANCH = "v2014.10"
-SRC_URI = "git://git@git.autorock.com/i-mx6/das-uboot.git;branch=${SRCBRANCH};protocol=ssh"
+SRC_URI = "git://git@gitlab.autorock.com/i-mx6/das-uboot.git;branch=${SRCBRANCH};protocol=ssh"
 
 S = "${WORKDIR}/git"
 
