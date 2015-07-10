@@ -7,7 +7,9 @@ COMPRESS_DEPENDS_packimg = "emutils-native"
 IMAGE_FSTYPES += "cpio.packimg"
 
 
-IMAGE_INSTALL += " dashboard-njgdbus"
+IMAGE_INSTALL_append_imx6qwisehmi += " dashboard-njgdbus"
+IMAGE_INSTALL_append_imx6dlwisehmi += " dashboard-njgdbus"
+IMAGE_INSTALL_append_imx6dlwisehmi-todi += " dashboard-todi"
 
 pre_process_image_cpio() {
 	install -d ${IMAGE_ROOTFS}/initroot
