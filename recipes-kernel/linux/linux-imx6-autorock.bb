@@ -8,11 +8,11 @@ SRC_URI = " \
 	file://defconfig \
 "
 
-SRCBRANCH = "imx_3.10.17_1.0.1_ga"
-SRCREV = "3618e2021f645ed3c3ef7f5fb4e650711f7c19a7"
+SRCBRANCH = "imx_3.14.28_1.0.0_ga"
+SRCREV = "83a24b77ee48b76dbcc458c9cc4c07df1920a623"
 
 DEPENDS += "lz4-native bc-native"
 
 COMPATIBLE_MACHINE = "wisehmi"
 
-PV = "3.10.17+git${SRCPV}"
+PV = "3.14.28+git${SRCPV}"
