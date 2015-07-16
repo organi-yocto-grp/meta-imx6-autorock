@@ -9,7 +9,7 @@ SRC_URI = " \
 "
 
 SRCBRANCH = "imx_3.14.28_1.0.0_ga"
-SRCREV = "83a24b77ee48b76dbcc458c9cc4c07df1920a623"
+SRCREV = "77aced5899ff0102d1758f4f6396c282e34e2414"
 
 DEPENDS += "lz4-native bc-native"
 
