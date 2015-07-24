@@ -16,6 +16,8 @@ PREFERRED_PROVIDER_virtual/kernel = "linux-imx6-autorock"
 
 PREFERRED_PROVIDER_jpeg = "libjpeg-turbo"
 
+PREFERRED_VERSION_glmark2 = "git"
+
 KERNEL_IMAGETYPE = "zImage"
 
 IMAGE_FSTYPES = "tar.bz2"
