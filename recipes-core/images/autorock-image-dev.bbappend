@@ -1,3 +1,3 @@
 
 IMAGE_FSTYPES += "ext4"
-
+IMAGE_INSTALL += "mmdc"
