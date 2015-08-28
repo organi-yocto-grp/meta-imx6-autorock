@@ -16,3 +16,5 @@ do_compile() {
 	packimg -p512 ${DEPLOY_DIR_IMAGE}/${BASE_KERNEL_DEVICETREE}@0x12000000 ${DEPLOY_DIR_IMAGE}/zImage@0x10008000 ${B}/${PACK_IMG}
 	rm ${DEPLOY_DIR_IMAGE}/${BASE_KERNEL_DEVICETREE}
 }
+
+do_compile[deptask] = "do_deploy"
