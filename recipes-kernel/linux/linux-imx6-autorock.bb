@@ -16,3 +16,6 @@ DEPENDS += "lz4-native bc-native"
 COMPATIBLE_MACHINE = "wisehmi"
 
 PV = "3.14.28+git${SRCPV}"
+
+KERNEL_MODULE_PROBECONF += "phy-mxs-usb"
+module_conf_phy-mxs-usb = "softdep phy-mxs-usb post: ci_hdrc_imx"
