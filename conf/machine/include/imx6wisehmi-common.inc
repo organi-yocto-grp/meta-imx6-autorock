@@ -29,13 +29,13 @@ SPL_BINARY = "SPL"
 UBOOT_SUFFIX = "img"
 UBOOT_MAKE_TARGET = "all"
 
-KERNEL_MODULE_AUTOLOAD += "vfat af_packet fec mii smsc"
+KERNEL_MODULE_AUTOLOAD += "af_packet fec mii smsc unix"
 MACHINE_ESSENTIAL_EXTRA_RRECOMMENDS += " \
-kernel-module-vfat \
-kernel-module-af_packet \
+kernel-module-af-packet \
 kernel-module-fec \
 kernel-module-mii \
 kernel-module-smsc \
+kernel-module-unix \
 "
 
 MACHINE_ARCH_FILTER += "qtbase-static"
