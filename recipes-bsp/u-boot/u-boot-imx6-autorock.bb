@@ -7,7 +7,7 @@ COMPATIBLE_MACHINE = "wisehmi"
 
 PROVIDES = "u-boot"
 
-SRCREV = "21f983d43d37b95fda1861e8e43a6190b87ee8a3"
+SRCREV = "687833112e0f4e8bf348783d960f361fc01d1346"
 SRCBRANCH = "v2014.10"
 SRC_URI = "git://git@gitlab.autorock.com/i-mx6/das-uboot.git;branch=${SRCBRANCH};protocol=ssh"
 
