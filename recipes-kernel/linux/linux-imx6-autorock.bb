@@ -12,6 +12,7 @@ SRCBRANCH = "imx_3.14.28_1.0.0_ga"
 SRCREV = "${AUTOREV}"
 
 DEPENDS += "lz4-native bc-native"
+RDEPENDS_kernel-base_remove = "kernel-image"
 
 COMPATIBLE_MACHINE = "wisehmi"
 
