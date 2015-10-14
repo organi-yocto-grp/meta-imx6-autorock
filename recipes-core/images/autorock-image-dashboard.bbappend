@@ -10,7 +10,7 @@ IMAGE_FSTYPES += "cpio.packimg"
 IMAGE_INSTALL_append_imx6qwisehmi += " dashboard-njgdbus"
 IMAGE_INSTALL_append_imx6dlwisehmi += " dashboard-njgdbus"
 IMAGE_INSTALL_append_imx6dlwisehmi-hall += " dashboard-hall"
-IMAGE_INSTALL_append_imx6dlwisehmi-huatai-b21 += " dashboard-huatai-b21"
+IMAGE_INSTALL_append_imx6dlwisehmi-lavender += " dashboard-lavender"
 IMAGE_INSTALL_append_imx6dlwisehmi-todi += " dashboard-todi"
 
 pre_process_image_cpio() {
