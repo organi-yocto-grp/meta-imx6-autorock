@@ -16,3 +16,6 @@ S = "${WORKDIR}/git"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 PV = "2014.10+git${SRCPV}"
+PR = "r0"
+
+EXTRA_OEMAKE = 'CROSS_COMPILE=/usr/bin/arm-linux-gnueabihf-'
