@@ -9,7 +9,7 @@ SRC_URI = " \
 "
 
 SRCBRANCH = "imx_3.10.17_1.0.1_ga"
-SRCREV = "ea8ea3e0f442614d212cdfc81e081064bcf3300b"
+SRCREV = "6de165415da91073b065bc6cfaaf260348fe1ad6"
 
 DEPENDS += "lz4-native bc-native"
 RDEPENDS_kernel-base_remove = "kernel-image"
