@@ -38,6 +38,10 @@ echo 20 > /sys/class/gpio/export
 echo in > /sys/class/gpio/gpio20/direction
 echo both > /sys/class/gpio/gpio20/edge
 
+# set limit temperature for hall
+echo 125000 > /sys/class/thermal/thermal_zone0/trip_point_0_temp
+echo 125000 > /sys/class/thermal/thermal_zone0/trip_point_1_temp
+
 # change work dir
 cd $DAEMONDIR
 
