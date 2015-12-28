@@ -13,7 +13,7 @@ IMAGE_INSTALL_append_imx6dlwisehmi-hall += " dashboard-hall"
 IMAGE_INSTALL_append_imx6dlwisehmi-lavender += " dashboard-lavender"
 IMAGE_INSTALL_append_imx6dlwisehmi-lavender-cpt += " dashboard-lavender"
 IMAGE_INSTALL_append_imx6dlwisehmi-todi += " dashboard-todi"
-IMAGE_INSTALL_append_imx6qwisehmi-carnation_b70 += " dashboard-carnation_b70"
+IMAGE_INSTALL_append_imx6qwisehmi-carnation-b70 += " dashboard-carnation-b70"
 
 pre_process_image_cpio() {
 	install -d ${IMAGE_ROOTFS}/initroot
