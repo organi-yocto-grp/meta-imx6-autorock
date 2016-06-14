@@ -21,7 +21,7 @@ PR = "r0"
 SEPB = "${WORKDIR}/build"
 B = "${SEPB}"
 
-EXTRA_OEMAKE = 'CROSS_COMPILE=/usr/bin/arm-linux-gnueabihf-'
+EXTRA_OEMAKE = 'CROSS_COMPILE=${TARGET_PREFIX}'
 
 do_configure() {
     make ${EXTRA_OEMAKE} ${UBOOT_MACHINE} -C ${S} O=${B}
