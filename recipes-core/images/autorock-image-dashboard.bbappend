@@ -13,6 +13,7 @@ IMAGE_INSTALL_append_imx6dlwisehmi-hall += " dashboard-hall"
 IMAGE_INSTALL_append_imx6dlwisehmi-hall-ch += " dashboard-hall-ch"
 IMAGE_INSTALL_append_imx6dlwisehmi-lavender += " dashboard-lavender"
 IMAGE_INSTALL_append_imx6dlwisehmi-lavender-cpt += " dashboard-lavender-cpt"
+IMAGE_INSTALL_append_imx6dlwisehmi-lavender-ch += " dashboard-lavender-ch"
 IMAGE_INSTALL_append_imx6dlwisehmi-todi += " dashboard-todi"
 IMAGE_INSTALL_append_imx6qwisehmi-carnation-b70 += " dashboard-carnation-b70"
 
