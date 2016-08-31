@@ -4,16 +4,16 @@ require recipes-kernel/linux/linux-dtb.inc
 SUMMARY = "Linux kernel for Autorock imx6 boards"
 
 SRC_URI = " \
-	git://git@gitlab.autorock.com/i-mx6/fsl-linux.git;branch=${SRCBRANCH};protocol=ssh \
+	git://git@gitlab.autorock.com/bianshaojun/fsl-linux.git;branch=${SRCBRANCH};protocol=ssh \
 	file://defconfig \
 "
 
-SRCBRANCH = "imx_3.10.17_1.0.1_ga"
-SRCREV = "fe366872d80a925446e0e858f89ef22376951255"
+SRCBRANCH = "imx_4.1.15_1.0.0_ga_gpu"
+SRCREV = "a3c09e082b42eade76575e0edb492c44b09f829d"
 
 DEPENDS += "lz4-native bc-native"
 RDEPENDS_kernel-base_remove = "kernel-image"
 
 COMPATIBLE_MACHINE = "wisehmi"
 
-PV = "3.10.17+git${SRCPV}"
+PV = "4.1.15+git${SRCPV}"
