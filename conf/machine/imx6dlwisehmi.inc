@@ -1,19 +1,18 @@
 #@TYPE: Machine
 #@NAME: Freescale i.MX6Q WiseHMI
-#@SOC: i.MX6Q
-#@DESCRIPTION: Machine configuration for Freescale i.MX6Q WiseHMI
+#@SOC: i.MX6DL
+#@DESCRIPTION: Machine configuration for Freescale i.MX6DL WiseHMI
 #@MAINTAINER: Wang Yinnian <wangyinnian@autorock.com.cn>
 
 require conf/machine/include/imx6wisehmi-common.inc
 
-SOC_FAMILY = "mx6:mx6q"
+SOC_FAMILY = "mx6:mx6dl"
 
-#KERNEL_DEVICETREE = "imx6q-wisehmi-carnation_b70.dtb"
-KERNEL_DEVICETREE = "imx6q-wisehmi-tiger_auo123.dtb"
+KERNEL_DEVICETREE = "imx6dl-wisehmi-dashboards.dtb"
 
 UBOOT_CONFIG ??= "sd"
-UBOOT_CONFIG[sd] = "mx6qwisehmi_mmc_spl_smp_defconfig"
-UBOOT_CONFIG[nand] = "mx6qwisehmi_nand_spl_defconfig,ubifs"
+UBOOT_CONFIG[sd] = "mx6dlwisehmi_ddr128x32_mmc_spl_smp_defconfig"
+UBOOT_CONFIG[nand] = "mx6dlwisehmi_nand_spl_defconfig,ubifs"
 
 # fs related kernel  modules
 KERNEL_MODULE_AUTOLOAD += "vfat nls_cp437 nls_iso8859-1"

@@ -13,6 +13,8 @@ IMAGE_INSTALL_append_imx6dlwisehmi-hall += " dashboard-hall"
 IMAGE_INSTALL_append_imx6dlwisehmi-huatai-b21 += " dashboard-huatai-b21"
 IMAGE_INSTALL_append_imx6dlwisehmi-todi += " dashboard-todi"
 IMAGE_INSTALL_append_imx6qwisehmi-carnation-b70 += " dashboard-carnation-b70"
+IMAGE_INSTALL_append_imx6qwisehmi-tiger-hsd7 += " dashboard-chery-smartant"
+IMAGE_INSTALL_append_imx6dlwisehmi-dashboards-b15a += " dashboard-hanteng-b15a"
 
 pre_process_image_cpio() {
 	install -d ${IMAGE_ROOTFS}/initroot

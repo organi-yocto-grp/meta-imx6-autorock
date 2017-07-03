@@ -17,6 +17,6 @@ SRCBRANCH = "master"
 PV = "1.0+git${SRCPV}"
 PR = "r0"
 
-SRC_URI = "git://git@gitlab.autorock.com/qt/audioitem.git;branch=${SRCBRANCH};protocol=ssh"
+SRC_URI = "git://git@zkgit.iask.in/qt/audioitem.git;branch=${SRCBRANCH};protocol=ssh"
 
 S = "${WORKDIR}/git"
